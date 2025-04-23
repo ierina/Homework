@@ -47,6 +47,6 @@ public class TestPlayerComparator {
 
         System.out.println("Top 3 Players:");
         for(int i = 0; i < 3; i++){
-            System.out.println(players.get(i));
+            System.out.println(sortedPlayers.get(i));
         }
     }}
