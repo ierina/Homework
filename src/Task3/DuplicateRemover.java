@@ -3,8 +3,8 @@ package Task3;
 import java.util.*;
 
 public class DuplicateRemover {
-    public static <T> List<T> removeDuplicatesPreserveOrder(List<T> input) {
-        return new ArrayList<>(new LinkedHashSet<>(input));
+    public static <T> List<T> removeDuplicatesPreserveOrder(List<T> input) { //Universal method (generic), works with any data type — T can be an Integer, String, Double
+        return new ArrayList<>(new LinkedHashSet<>(input)); //Deletes duplicates and saves the order
     }
 
     public static void main(String[] args) {
